@@ -13,6 +13,7 @@ For quick and easy interactive practice with Python, many people enjoy [Codecade
 How are Python lists and tuples similar and different? Which will work as keys in dictionaries? Why?
 
 * Similarity:
+        
         1. Duplicates - Both tuples and lists allow for duplicates.
         
         2. Indexing, Selecting, & Slicing - Both tuples and lists index using integer values found within brackets. So, if you want the first 3 values of a given list or tuple, the syntax would be the same
