@@ -12,13 +12,19 @@ For quick and easy interactive practice with Python, many people enjoy [Codecade
 
 How are Python lists and tuples similar and different? Which will work as keys in dictionaries? Why?
 
-* Similarity:
-        
-        1. Duplicates - Both tuples and lists allow for duplicates.
-        
-        2. Indexing, Selecting, & Slicing - Both tuples and lists index using integer values found within brackets. So, if you want the first 3 values of a given list or tuple, the syntax would be the same
-        
-        3. Comparing & Sorting - Two tuples or two lists are both compared by their first element, and if there is a tie, then by the second element, and so on. No further attention is paid to subsequent elements after earlier elements show a difference
+* Similarity:  
+        1. Duplicates - Both tuples and lists allow for duplicates.  
+        2. Indexing, Selecting, & Slicing - Both tuples and lists index using integer values found within brackets. So, if you want the first 3 values of a given list or tuple, the syntax would be the same.  
+        3. Comparing & Sorting - Two tuples or two lists are both compared by their first element, and if there is a tie, then by the second element, and so on. No further attention is paid to subsequent elements after earlier elements show a difference.  
+* Differnece:  
+        1. Syntax - Lists use [], tuples use ()  
+        2. Mutability - Elements in a given list are mutable, elements in a given tuple are NOT mutable.  
+        3. Homo vs. Heterogeneity of Elements - List objects are homogenous (objects/subjects of the same type); Tuple objects are heterogeneous (mostly heterogenous objects, but not forced)  
+        4. Looping vs. Structures - Although both allow for looping (for x in my_list...), it only really makes sense to do it for a list. Tuples are more appropriate for structuring and presenting information.  
+* Tuples will work as keys in dictionary:  
+        As hashtables (dictionaries) require that its keys are hashable and therefore immutable, only tuples can act as dictionary keys, not lists.  
+   
+    
     
 
 ---
