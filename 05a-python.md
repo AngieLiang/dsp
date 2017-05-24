@@ -70,7 +70,6 @@ Python supports a style of programming called functional programming where you c
         cubes = list(filter(lambda x: x % 3 == 0, [1, 2, 3, 4, 5, 6, 7, 8, 9]))  
     3.  
         sorted([1, 2, 3, 4, 5, 6, 7, 8, 9], key=lambda x: abs(5-x))  
-
 ---
 
 ### Q4. List Comprehension, Map &amp; Filter
