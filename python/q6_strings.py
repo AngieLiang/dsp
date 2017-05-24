@@ -18,7 +18,10 @@ def donuts(count):
     >>> donuts(99)
     'Number of donuts: many'
     """
-    raise NotImplementedError
+     if count < 10:
+        return ('NUmber of donuts: ' + str(count))
+    else:
+        return ('Number of donuts: many')
 
 
 def both_ends(s):
@@ -37,7 +40,10 @@ def both_ends(s):
     >>> both_ends('xyz')
     'xyyz'
     """
-    raise NotImplementedError
+    if len(s) <= 2:
+        return ''
+    else:
+        return (s[:2] + s[-2:])
 
 
 def fix_start(s):
@@ -56,7 +62,13 @@ def fix_start(s):
     >>> fix_start('donut')
     'donut'
     """
-    raise NotImplementedError
+    emp_str = s[0]
+    for letter in s[1:]:
+        if letter != s[0]:
+            emp_str += letter
+        else:
+            emp_str += '*'
+    return emp_str
 
 
 def mix_up(a, b):
@@ -74,7 +86,9 @@ def mix_up(a, b):
     >>> mix_up('pezzy', 'firm')
     'fizzy perm'
     """
-    raise NotImplementedError
+    aa = b[:2] + a[2:]
+    bb = a[:2] + b[2:]
+    return (aa + ' ' + bb)
 
 
 def verbing(s):
@@ -91,7 +105,13 @@ def verbing(s):
     >>> verbing('do')
     'do'
     """
-    raise NotImplementedError
+    while len(s) >= 3:
+        if s[-3:] == 'ing':
+            return (s + 'ly')
+        else:
+            return (s + 'ing')
+    else:
+        return s
 
 
 def not_bad(s):
@@ -111,7 +131,17 @@ def not_bad(s):
     >>> not_bad("It's bad yet not")
     "It's bad yet not"
     """
-    raise NotImplementedError
+    n_index = 0
+    b_index = 0
+    for i,word in enumerate(s):
+        if s[i:i+3] == 'not':
+            n_index = i
+        if s[i:i+3] == 'bad':
+            b_index = i
+    if n_index < b_index:
+        return s[:n_index] + 'good' + s[b_index+3:]
+    else:
+        return s
 
 
 def front_back(a, b):
@@ -130,4 +160,16 @@ def front_back(a, b):
     >>> front_back('Kitten', 'Donut')
     'KitDontenut'
     """
-    raise NotImplementedError
+    if len(a) % 2 == 0:
+        a_front = a[:int(len(a)/2)]
+        a_back = a[int(len(a)/2):]
+    else:
+        a_front = a[:int((len(a)/2)+0.5)]
+        a_back = a[int((len(a)/2)+0.5):]
+    if len(b) % 2 == 0:
+        b_front = b[:int(len(a)/2)]
+        b_back = b[int(len(a)/2):]
+    else:
+        b_front = b[:int((len(a)/2)+0.5)]
+        b_back = b[int((len(a)/2)+0.5):]
+    return (a_front + b_front + a_back + b_back)
