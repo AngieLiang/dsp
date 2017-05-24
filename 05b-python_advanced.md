@@ -65,13 +65,13 @@ faculty_dict = { 'Ellenberg': [['Ph.D.', 'Professor', 'sellenbe@upenn.edu'], ['P
               'Li': [['Ph.D.', 'Assistant Professor', 'liy3@email.chop.edu'], ['Ph.D.', 'Associate Professor', 'mingyao@mail.med.upenn.edu'], ['Ph.D.', 'Professor', 'hongzhe@upenn.edu']]}
 ```
 Print the first 3 key and value pairs of the dictionary:
-
+```
 i = 0
 for k,v in faculty_dict.items():
     i += 1
     if i < 4:
         print ((k,v))
-
+```
 #### Q7.  The previous dictionary does not have the best design for keys.  Create a new dictionary with keys as:
 
 ```
@@ -79,13 +79,13 @@ professor_dict = {('Susan', 'Ellenberg'): ['Ph.D.', 'Professor', 'sellenbe@upenn
 ```
 
 Print the first 3 key and value pairs of the dictionary:
-
+```
 i = 0
 for k,v in professor_dict.items():
     i += 1
     if i <= 3:
         print ((k,v))
-
+```
 #### Q8.  It looks like the current dictionary is printing by first name.  Print out the dictionary key value pairs based on alphabetical orders of the last name of the professors
 
 >> REPLACE THIS WITH YOUR RESPONSE
