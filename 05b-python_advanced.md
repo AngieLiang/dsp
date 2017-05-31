@@ -21,13 +21,13 @@ This data is available in this file:  [faculty.csv](python/faculty.csv)
 
 Answer:  
 There are 7 different degrees.  
-PhD: 496  
-ScD: 102  
-MA: 17  
-MPH: 34  
-JD: 17  
-BSEd: 17  
-MS: 34    
+PhD: 31  
+ScD: 6  
+MA: 1  
+MPH: 2  
+JD: 1  
+BSEd: 1  
+MS: 2    
 
 #### Q2. Find how many different titles there are, and their frequencies:  Ex:  Assistant Professor, Professor
 
