@@ -81,7 +81,7 @@ Upload these 3 files to the [`editors`](editors/) folder.
 
 What terminal editor will be your preferred choice of use? How did you make your decision?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+I will choose nano as my perferred terminal editor. Because nano is easier for me as a beginner.  
 
 --
 
@@ -89,6 +89,6 @@ What terminal editor will be your preferred choice of use? How did you make your
 
 What graphical editor will you use? How did you make your decision? What are some interesting features of your editor? What are some useful keyboard shortcuts for your editor? How do you customize your editor?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> I will use Spyder. It comes installed with Anaconda. F5 executes the current buffer; SHIFT+CTRL+ALT+M maximises the current window (or changes the size back to normal if pressed in a maximised window). I can use Python -> perference to change the text font, Syntax coloring, etc.
 
  
