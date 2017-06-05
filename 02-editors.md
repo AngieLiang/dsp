@@ -81,8 +81,7 @@ Upload these 3 files to the [`editors`](editors/) folder.
 
 What terminal editor will be your preferred choice of use? How did you make your decision?
 
-I will choose nano as my perferred terminal editor. Because nano is easier for me as a beginner.  
-
+>> I will choose nano as my perferred terminal editor. Because nano is easier for me as a beginner.  
 --
 
 ### Q3. Graphical Editor
