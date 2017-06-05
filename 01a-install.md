@@ -48,13 +48,13 @@ cross-platform.
 
 Did you install Python 2 or 3? Why?  
 
-I installed Python 3.0 because Python 3.0 is recommended for the bootcamp and it is the newest version of Python.
+>> I installed Python 3.0 because Python 3.0 is recommended for the bootcamp and it is the newest version of Python.
 
 ### Q2. Which Python Version Installed   
 
 How can you check the version of Python installed if you happen to be on an unfamiliar computer?
 
-Enter "python --version" in terminal.
+>> Enter "python --version" in terminal.
 
  
 
