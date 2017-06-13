@@ -131,17 +131,14 @@ def not_bad(s):
     >>> not_bad("It's bad yet not")
     "It's bad yet not"
     """
-    n_index = 0
-    b_index = 0
-    for i,word in enumerate(s):
-        if s[i:i+3] == 'not':
-            n_index = i
-        if s[i:i+3] == 'bad':
-            b_index = i
-    if n_index < b_index:
-        return s[:n_index] + 'good' + s[b_index+3:]
-    else:
-        return s
+
+    for n1, n2 in enumerate(s):
+        n1 = s.find('not')
+        n2 = s.find('bad')
+        if n1 != -1 and n2 != -1 and n1 < n2:
+            s = s.replace(s[n1:(n2+3)], 'good')
+
+    return s
 
 
 def front_back(a, b):
