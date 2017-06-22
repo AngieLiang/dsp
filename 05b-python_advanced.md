@@ -84,7 +84,7 @@ for k,v in faculty_dict.items():
         print ((k,v))
 ```
   
-Answer:
+Answer:  
 'Bellamy': [[' Sc.D.',
    'Associate Professor of Biostatistics',
    'bellamys@mail.med.upenn.edu']],  
