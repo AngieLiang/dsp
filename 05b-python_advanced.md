@@ -83,6 +83,15 @@ for k,v in faculty_dict.items():
     if i < 4:
         print ((k,v))
 ```
+  
+Answer:
+'Bellamy': [[' Sc.D.',
+   'Associate Professor of Biostatistics',
+   'bellamys@mail.med.upenn.edu']],  
+ 'Bilker': [['Ph.D.', 'Professor of Biostatistics', 'warren@upenn.edu']],  
+ 'Bryan': [[' PhD',
+   'Assistant Professor of Biostatistics',
+   'bryanma@upenn.edu']]
 #### Q7.  The previous dictionary does not have the best design for keys.  Create a new dictionary with keys as:
 
 ```
@@ -97,12 +106,24 @@ for k,v in professor_dict.items():
     if i <= 3:
         print ((k,v))
 ```
+('A.', 'Russell', 'Localio'): [' JD MA MPH MS PhD',
+  'Associate Professor of Biostatistics',
+  'rlocalio@upenn.edu'],  
+ ('Alisa', 'Jane', 'Stephens'): [' Ph.D.',
+  'Assistant Professor of Biostatistics',
+  'alisaste@mail.med.upenn.edu'],  
+ ('Andrea', 'Beth', 'Troxel'): [' ScD',
+  'Professor of Biostatistics',
+  'atroxel@mail.med.upenn.edu']  
+    
 #### Q8.  It looks like the current dictionary is printing by first name.  Print out the dictionary key value pairs based on alphabetical orders of the last name of the professors
 
 >> REPLACE THIS WITH YOUR RESPONSE
 
 Place your code in this file: [advanced_python_dict.py](python/advanced_python_dict.py)
-
+('Scarlett', 'Bellamy'): [['Sc.D.', 'bellamys@mail.med.upenn.edu', 'Associate Professor']]  
+('Warren', 'Bilker'): [['Ph.D.', 'warren@upenn.edu', 'Professor']]  
+('Matthew', 'Bryan'): [['PhD', 'bryanma@upenn.edu', 'Assistant Professor']]  
 --- 
 
 If you're all done and looking for an extra challenge, then try the below problem:  
