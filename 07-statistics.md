@@ -101,7 +101,14 @@ The probability that Elvis was an ientical twin is 0.294.
 ### Q6. Bayesian &amp; Frequentist Comparison  
 How do frequentist and Bayesian statistics compare?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+* Frequentist:  
+Sampling is infinite and decision rules can be sharp. Data are a repeatable random sample - there is a frequency. Underlying parameters are fixed i.e. they remain constant during this repeatable sampling process.  
+◮ Statistical results assume that data were from a controlled experiment.  
+◮ Nothing is more important than repeatability, no matter what we pay for it.  
+* Bayesian:  
+Unknown quantities are treated probabilistically and the state of the world can always be updated. Data are observed from the realised sample. Parameters are unknown and described probabilistically. It is the data which are fixed.   
+◮ Very careful about stipulating assumptions and are willing to defend them.  
+◮ Every statistical model ever created in the history of the human race is subjective; we are willing to admit it.  
 
 ---
 
